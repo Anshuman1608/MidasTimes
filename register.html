@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/26a261daad.js" crossorigin="anonymous"></script> 
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+
+    <!--Custom Styling-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Midas Times - World's Fastest News Network</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+               <span>Midas</span>Times 
+            </h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="register.html">Sign Up</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Midas Times
+                    <i class="fa fa-chevron-down" style="font-size: 0.8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="../Blog/admin/posts/index.html">DashBoard</a></li>
+                    <li><a href="#" class="logout">Sign Out</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="register.html" method="post">
+            <h2 class="form-title">Register</h2>
+
+         <!--  <div class="msg success">
+                <li>Username Required**</li>
+            </div>--> 
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" class="text-input">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" class="text-input">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="password" class="text-input">
+            </div>
+            <div>
+                <label for="">Confirm Password</label>
+                <input type="password" name="passwordConf" class="text-input">
+            </div>
+            <div>
+                <button type="submit" name="register-btn" class="btn btn-big">Register</button>
+            </div>
+            <p>Or <a href="login.html">Sign In</a></p>
+        </form>
+    </div>
+
+
+<!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<!--Custom Script-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
